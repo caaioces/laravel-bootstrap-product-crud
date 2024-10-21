@@ -42,8 +42,15 @@ Um aplicativo de gerenciamento de produtos simples, desenvolvido com **Laravel**
 8. Crie uma cópia do arquivo .env.example e renomeie para .env
     
 9. Configure o arquivo .env com suas credenciais de banco de dados MySQL.
+    Altere essas linhas para traduzir:
+   
+   ```shell
+    APP_LOCALE=pt_BR
+    APP_FALLBACK_LOCALE=pt_BR
+    APP_FAKER_LOCALE=pt_BR
+   ```
 
-10. Gere a chave de criptografia da aplicação:
+11. Gere a chave de criptografia da aplicação:
 
     ```shell
     php artisan key:generate
