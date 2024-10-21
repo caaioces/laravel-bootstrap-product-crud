@@ -17,10 +17,16 @@ Um aplicativo de gerenciamento de produtos simples, desenvolvido com **Laravel**
 ## Como Executar
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+     
+   git clone https://github.com/caaioces/laravel-bootstrap-product-crud.git
 
-2. Instale as dependências do backend:
-   composer install
+2. Configure o arquivo .env com suas credenciais de banco de dados MySQL.
+   
+3. Execute as migrações:
+    php artisan migrate
+4. Compile os ativos:
+   npm run dev
+5. Inicie o servidor local:
+   php artisan serve
 
-3. 
+Sinta-se à vontade para fazer ajustes ou personalizar ainda mais conforme necessário!
